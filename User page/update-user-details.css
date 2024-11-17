@@ -1,0 +1,132 @@
+       
+        body {
+			padding-top:100px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #81c784, #4db6ac);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0 20px; 
+            box-sizing: border-box; 
+        }
+
+      
+        .form-container {
+			margin-top:300px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            max-width: 500px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .form-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+        }
+
+       
+        .form-container h2 {
+            text-align: center;
+            color: #00796b;
+            margin-bottom: 30px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+       
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container label {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .form-container input[type="text"], 
+        .form-container input[type="email"],
+        .form-container input[type="password"], 
+        .form-container input[type="tel"] {
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: border 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        
+        .form-container input:focus {
+            border: 1px solid #4db6ac;
+            box-shadow: 0px 0px 8px rgba(77, 182, 172, 0.6);
+            outline: none;
+        }
+
+        
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 40px; 
+            cursor: pointer;
+            color: #00796b;
+        }
+
+        
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+       
+        .form-container button {
+            padding: 12px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 48%;     /* to make sure button is aligned */
+            transition: background-color 0.3s ease;
+        }
+
+        
+        .form-container .save-btn {
+            background-color: #00796b;
+            color: white;
+        }
+
+        .form-container .save-btn:hover {
+            background-color: #004d40;
+        }
+
+       
+        .form-container .cancel-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .form-container .cancel-btn:hover {
+            background-color: #d32f2f;
+        }
+
+       /* to be responsive */
+        @media (max-width: 600px) {
+            .form-container {
+                padding: 20px; 
+            }
+        }
+
+        
+        .input-container {
+            position: relative;
+            margin-bottom: 20px;
+        }

@@ -1,0 +1,138 @@
+.body-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0f7fa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+h2 {
+  display:flex;
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-size: 24px;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #00796b;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.update-btn {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.remove-btn{
+  background-color: #dd3f0e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+.update-btn:hover {
+  background-color: #004d40;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.tick-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #757575;
+}
+
+.tick-icon:hover {
+  color: #00796b;
+}
+
+td input[type="password"], td input[type="text"] {
+  border: none;
+  background: none;
+  padding: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+td input[readonly] {
+  background-color: #e0f7fa;
+  color: #00796b;
+}
+.popup {
+  display: none; /* default hidden */
+  position: fixed; 
+  z-index: 1000; /* to stay on top */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* scroll karnna pluwn wenna ona unoth */
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-popup {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
