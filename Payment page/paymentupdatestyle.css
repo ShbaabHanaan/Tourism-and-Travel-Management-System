@@ -1,0 +1,71 @@
+
+.body-content {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5af19, #43b04e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 120vh;
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin:70px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color:  rgb(67, 176, 78);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(67, 176, 78);
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(58, 164, 58);
+}
+
+form input:focus {
+    border-color: rgb(67, 176, 78);
+    outline: none;
+    box-shadow: 0 0 8px rgba(69, 216, 96, 0.3);
+}
+
