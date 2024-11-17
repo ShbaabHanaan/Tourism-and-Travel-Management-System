@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.left-content, .right-content {
+    width: 48%;
+}
+
+.right-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: #4CAF50; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.right-content h2 {
+    color: black;
+}
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.05);
+}
+
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-header:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.industry-logos {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around; 
+  margin-top: 30px;
+}
+
+.industry-logo {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.industry-logo:hover {
+  transform: scale(1.1); 
+}

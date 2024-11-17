@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Destinex</title>
+   <style>body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.left-content, .right-content {
+    width: 48%;
+}
+
+.right-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: #4CAF50; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.right-content h2 {
+    color: black;
+}
+
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.05);
+}
+
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-header:hover {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.industry-logos {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around; 
+  margin-top: 30px;
+}
+
+.industry-logo {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.industry-logo:hover {
+  transform: scale(1.1); 
+}
+</style>
+</head>
+<body>
+    <section id="about" class="about-section">
+        <h1><center><b>ABOUT US</b></center></h1>
+        <div class="container">
+      
+            <div class="left-content">
+                <h3>Welcome to Destinex</h3>
+                <p>At Destinex, we are dedicated to making your travel dreams come true. With our expert knowledge and passion for adventure, we create customized itineraries that cater to your interests and needs.</p>
+
+                <h3 class="accordion-header">Our Story</h3>
+                <p>Founded by a group of travel enthusiasts, Destinex aims to bridge the gap between travelers and unique experiences.<br>Our mission is to empower people to explore the world confidently, ensuring that every journey is memorable.</p>
+                <div class="accordion-content">
+                    
+                </div>
+
+                <h3 class="accordion-header">Why Choose Us?</h3>
+                <br>
+                <ul>
+                    <li><strong>Personalized Service:</strong> We take the time to understand your preferences and tailor our services to meet your needs.</li><br>
+                    <li><strong>Expert Guidance:</strong> Our team of experienced travel professionals is here to provide advice and support at every step.</li><br>
+                    <li><strong>Quality Assurance:</strong> We partner with reputable providers to ensure that your travel experience exceeds expectations.</li>
+                </ul>
+                <div class="accordion-content">
+                    
+                </div>
+                <br>
+                <h3 class="accordion-header">Industry Partnerships<br></h3>
+                <img src="pages/images/logo1.jpg" alt="Industry Logo 1" class="industry-logo">
+                <img src="pages/images/logo2.jpg" alt="Industry Logo 1" class="industry-logo">
+                <img src="pages/images/logo3.jpg" alt="Industry Logo 1" class="industry-logo">
+                <img src="pages/images/logo4.jpg" alt="Industry Logo 1" class="industry-logo">
+                <div class="accordion-content">
+                <div class="industry-logos">
+                  
+                   
+    </div>
+</div>
+
+            </div>
+
+           
+            <div class="right-content">
+                
+                <h2 class="accordion-header">Our Mission</h2>
+                <p>Our mission is to inspire and enable travelers to explore the world, creating unforgettable experiences while fostering a deep appreciation for diverse cultures.</p>
+                
+                <h2 class="accordion-header">Meet Our Team</h2>
+                <p>Our passionate team of travel experts is committed to providing exceptional service and guidance throughout your journey.</p>
+
+              
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="pages/images/7.jpg" alt="John Doe, Travel Expert">
+                        <p>John Doe - Travel Expert</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="pages/images/8.jpg" alt="Jane Smith, Tour Coordinator">
+                        <p>Jane Smith - Tour Coordinator</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="pages/images/9.jpg" alt="Emily Johnson, Customer Support">
+                        <p>Emily Johnson - Customer Support</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="pages/images/10.jpg" alt="Michael Lee, Guide Specialist">
+                        <p>Michael Lee - Guide Specialist</p>
+                    </div>
+                </div>
+
+               
+             
+            </div>
+        </div>
+    </section>
+
+    <script src="about.js"></script>
+</body>
+</html>
